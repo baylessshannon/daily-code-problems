@@ -17,6 +17,8 @@ If you are interested in trying these problems yourself, sign up for the daily e
 
 - [Problem 1 [Easy]](#problem-1)
 - [Problem 2 [Hard]](#problem-2)
+- [Problem 3 [Medium]](#problem-3)
+- [Problem 4 [Hard]](#problem-4)
 
 ## Problem 1
 
@@ -40,3 +42,22 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 Follow-up: what if you can't use division?
 
 Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-2.ipynb)
+
+## Problem 3
+This problem was asked by Google.
+
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-3.ipynb).
+
+## Problem 4
+This problem was asked by Stripe.
+
+Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+
+For example, the input ```[3, 4, -1, 1]``` should give 2. The input ```[1, 2, 0]``` should give ```3```.
+
+You can modify the input array in-place.
+
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-4.ipynb)
