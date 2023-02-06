@@ -1,6 +1,6 @@
 # Daily Code Problems
 
-This repo contians my solutions to different Daily Coding Problems. These problems are sent out daily to email subscribers and are meant to share common technical interview questions asked by large tech companies. The ratings (Easy, Medium, Hard) are provided in the email.
+This repo contians my solutions to different Daily Coding Problems. These problems are sent out daily to email subscribers and are meant to share common technical interview questions asked by large tech companies. The ratings (Easy, Medium, Hard) are provided in the email and are not necessarily a measure of personal difficulty.
 
 
 For example, the first problem solved in this repo was asked by Google.
