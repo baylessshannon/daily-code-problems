@@ -19,6 +19,10 @@ If you are interested in trying these problems yourself, sign up for the daily e
 - [Problem 2 [Hard]](#problem-2)
 - [Problem 3 [Medium]](#problem-3)
 - [Problem 4 [Hard]](#problem-4)
+- [Problem 5 [Medium]](#problem-5)
+- [Problem 6 [Hard]](#problem-6)
+- [Problem 7 [Medium]](#problem-7)
+- [Problem 8 [Easy]](#problem-8)
 
 ## Problem 1
 
@@ -75,3 +79,59 @@ For example, the input ```[3, 4, -1, 1]``` should give 2. The input ```[1, 2, 0]
 You can modify the input array in-place.
 
 Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-4.ipynb)
+
+## Problem 5
+This problem was asked by Jane Street.
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+```
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+```
+Implement ```car``` and ```cdr```.
+
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-5.ipynb).
+
+## Problem 6
+This problem was asked by Google.
+
+An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding ```next``` and ```prev``` fields, it holds a field named ```both```, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an ```add(element)``` which adds the element to the end, and a ```get(index)``` which returns the node at index.
+
+If using a language that has no pointers (such as Python), you can assume you have access to ```get_pointer``` and ```dereference_pointer``` functions that converts between nodes and memory addresses.
+
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-6.ipynb).
+
+## Problem 7
+This problem was asked by Facebook.
+
+Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
+
+For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
+
+You can assume that the messages are decodable. For example, '001' is not allowed.
+
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-7.ipynb).
+
+## Problem 8
+This problem was asked by Google.
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+Given the root to a binary tree, count the number of unival subtrees.
+
+For example, the following tree has 5 unival subtrees:
+```
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 1   1
+ ```
+
+ This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-8.ipynb).
