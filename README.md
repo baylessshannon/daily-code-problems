@@ -23,6 +23,8 @@ If you are interested in trying these problems yourself, sign up for the daily e
 - [Problem 6 [Hard]](#problem-6)
 - [Problem 7 [Medium]](#problem-7)
 - [Problem 8 [Easy]](#problem-8)
+- [Problem 9 [Hard]](#problem-9)
+- [Problem 10 [Medium]](#problem-10)
 
 ## Problem 1
 
@@ -135,3 +137,21 @@ For example, the following tree has 5 unival subtrees:
  ```
 
  This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-8.ipynb).
+
+ ## Problem 9
+ This problem was asked by Airbnb.
+
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+
+For example, ```[2, 4, 6, 2, 5]``` should return ```13```, since we pick ```2```, ```6```, and ```5```. `[5, 1, 1, 5]` should return `10`, since we pick `5` and `5`.
+
+Follow-up: Can you do this in O(N) time and constant space?
+
+ This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-9.ipynb).
+
+ ## Problem 10
+ This problem was asked by Apple.
+
+Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-10.ipynb).
