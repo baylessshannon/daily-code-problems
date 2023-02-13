@@ -25,6 +25,7 @@ If you are interested in trying these problems yourself, sign up for the daily e
 - [Problem 8 [Easy]](#problem-8)
 - [Problem 9 [Hard]](#problem-9)
 - [Problem 10 [Medium]](#problem-10)
+- [Problem 11 [Medium]](#problem-11)
 
 ## Problem 1
 
@@ -36,7 +37,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 
-Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-1.ipynb)
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-01.ipynb)
 
 ## Problem 2 
 This problem was asked by Uber.
@@ -47,8 +48,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
-Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-2.ipynb)
-
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-02.ipynb)
 ## Problem 3
 This problem was asked by Google.
 
@@ -69,7 +69,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
 
-This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-3.ipynb).
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-03.ipynb).
 
 ## Problem 4
 This problem was asked by Stripe.
@@ -80,7 +80,7 @@ For example, the input ```[3, 4, -1, 1]``` should give 2. The input ```[1, 2, 0]
 
 You can modify the input array in-place.
 
-Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-4.ipynb)
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-04.ipynb)
 
 ## Problem 5
 This problem was asked by Jane Street.
@@ -96,7 +96,7 @@ def cons(a, b):
 ```
 Implement ```car``` and ```cdr```.
 
-This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-5.ipynb).
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-05.ipynb).
 
 ## Problem 6
 This problem was asked by Google.
@@ -105,7 +105,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to ```get_pointer``` and ```dereference_pointer``` functions that converts between nodes and memory addresses.
 
-This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-6.ipynb).
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-06.ipynb).
 
 ## Problem 7
 This problem was asked by Facebook.
@@ -116,7 +116,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-7.ipynb).
+This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-07.ipynb).
 
 ## Problem 8
 This problem was asked by Google.
@@ -136,7 +136,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
  ```
 
- This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-8.ipynb).
+ This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-08.ipynb).
 
  ## Problem 9
  This problem was asked by Airbnb.
@@ -147,7 +147,7 @@ For example, ```[2, 4, 6, 2, 5]``` should return ```13```, since we pick ```2```
 
 Follow-up: Can you do this in O(N) time and constant space?
 
- This problem is still a work in progress. See my work [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-9.ipynb).
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-09.ipynb).
 
  ## Problem 10
  This problem was asked by Apple.
@@ -155,3 +155,14 @@ Follow-up: Can you do this in O(N) time and constant space?
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
 Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-10.ipynb).
+
+## Problem 11
+This problem was asked by Twitter.
+
+Implement an autocomplete system. That is, given a query string `s` and a set of all possible query strings, return all strings in the set that have `s` as a prefix.
+
+For example, given the query string de and the set of strings `[dog, deer, deal]`, return `[deer, deal]`.
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+Find my solution [here](https://github.com/baylessshannon/daily-code-problems/blob/master/problem-11.ipynb).
